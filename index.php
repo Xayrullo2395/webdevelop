@@ -13,6 +13,9 @@
     echo 5/9;
     echo '<h2>'.$myVar.'</h2>';
 ?>
-
+<?= "Salom" ?>
+<div>
+    Here some code
+</div>
 <h3>TEst <?php echo $myVar ?></h3>
 
