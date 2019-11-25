@@ -12,6 +12,7 @@
 
     echo 5/9;
     echo '<h2>'.$myVar.'</h2>';
+    echo 'dff';
 ?>
 <?= "Salom" ?>
 <div>
