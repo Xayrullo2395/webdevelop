@@ -1,22 +1,17 @@
-<?php
-    /**
-     * Comment
-     */
-    $myVar = "First variable"; // string
-    // echo 'Salom dunyo';
-    $myInt = 25;
-    $myFloat = 25.5;
-    $myBool = true;
-    $myArray = [2,2,3];
-    // echo gettype($myArray);
-
-    echo 221;
-    echo '<h2>'.$myVar.'</h2>';
-    echo 'df';
-?>
-<?= "Assalom alaykum" ?>
-<div>
-    Here some code
-</div>
-<h3>TEst <?php echo $myVar ?></h3>
-
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Document</title>
+</head>
+<body>
+    <h1>Hello </h1>
+ <?php
+ $characterName = "John";
+ $characterAge = "35"; 
+echo "There once was a man named $characterName<br>";
+echo "He was $characterAge years old <br>";
+echo "He realy liked the name $characterName <br>";
+echo " But didn't like being $characterAge old<br>";
+ ?>
+</body>
+</html>
