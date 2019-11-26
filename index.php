@@ -1,17 +1,18 @@
-<!DOCTYPE html>
 <html>
 <head>
      <title>Document</title>
 </head>
 <body>
     <h1>Hello </h1>
- <?php
- $characterName = "John";
- $characterAge = "35"; 
-echo "There once was a man named $characterName<br>";
-echo "He was $characterAge years old <br>";
-echo "He realy liked the name $characterName <br>";
-echo " But didn't like being $characterAge old<br>";
- ?>
+ <form action="index.php" method="get">
+
+ Name:<input type ="text" name = "name"><br>
+<input type="submit" name="ok"><br><br>
+
+Age: <input type="text" name="age"><br>
+<input type="submit" name="ok">
+
+</form>
+<?php echo $_GIT["age"]; ?>
 </body>
 </html>
