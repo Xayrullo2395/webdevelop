@@ -10,11 +10,11 @@
     $myArray = [2,2,3];
     // echo gettype($myArray);
 
-    echo 5/9;
+    echo 221;
     echo '<h2>'.$myVar.'</h2>';
-    echo 'dff';
+    echo 'df';
 ?>
-<?= "Salom" ?>
+<?= "Assalom alaykum" ?>
 <div>
     Here some code
 </div>
