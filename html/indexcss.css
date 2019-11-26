@@ -1,0 +1,86 @@
+body,h1,h2,h3,h4,h5,h6,ul,p{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-color: #333;
+	border-bottom: 3px solid coral;
+
+}
+#header h3 {
+	font-family: sans-serif;
+	color: #fff;
+	padding: 0px 0;
+	display: inline-block;
+}
+#header h6{
+	display: inline-block;
+	padding: 20px;
+
+}
+.form
+{
+	float: right;
+	padding: 7px;
+}
+#header logo{
+	/*bu yerga rasim Qo'jak adim*/
+
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+.navbor{
+
+
+}
+.navbor li{
+	display: inline;
+	padding: 0px 20px;
+}
+.navbor li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	display: inline-block;
+}
+.navbor li a:hover{
+	color: #00CCCC;
+
+}
+.box1{
+	float: left;
+	width: 20%;
+	border:1px solid #336666;
+	 box-sizing: border-box;
+	 padding: 1px 40px;
+	 margin: 30px 10px;
+background-image: url(box1.jpg);
+}
+.box2{
+	float: left;
+	width: 20%;
+	border:1px solid #336666;
+	 box-sizing: border-box;
+	padding: 1px 40px;
+	margin: 30px 10px;
+background-image: url(box2.jpg);
+	}
+.box3{
+	float: left;
+	width: 20%;
+    border:1px solid #336666;
+    padding: 1px 40px;
+    box-sizing: border-box;
+    margin: 30px 10px;
+    background-image: url(box3.jpg);
+}
+.box4{
+	float: left;
+	width: 30%;
+	margin: 30px auto;
+	box-sizing:border-box;
+	padding: 0px 40px ;
+}
